@@ -1,9 +1,2 @@
-dictionary = {}
-my_list = ['a', 'b', 'c', 'd']
-
-for i in range(len(my_list) - 1):
-    dictionary[my_list[i]] = (my_list[i], )
-
-for i in sorted(dictionary.keys()):
-    k = dictionary[i]
-    print(k['0'])
+my_list = [[0, 1, 2, 3] for i in range(2)]
+print(my_list[2][0])
